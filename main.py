@@ -77,4 +77,4 @@ if __name__ == '__main__':
     depth_limit = 2
 
     # can change comments for custom input like thread
-    print(optimal_comments_recursive(thread, depth_limit))
+    print(optimal_comments_recursive(comments, depth_limit))
