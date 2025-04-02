@@ -7,7 +7,7 @@ with open('comments.json') as file:
     comments = json.load(file)
 
 
-def optimal_comments_recursive(comments: dict, depth_limit: int):
+def optimal_comments_recursive(comments: dict, depth_limit: int) -> list:
 
     # memory for recursive calls
     memory = {}
